@@ -1,5 +1,5 @@
 <#
-This script will configure winrm on the server
+This script will configure winrm on the server and allow winrm over basic authentication
 #>
 [Net.ServicePointManager]::SecurityProtocol = [Net.ServicePointManager]::SecurityProtocol -bor [Net.SecurityProtocolType]::Tls12
 
